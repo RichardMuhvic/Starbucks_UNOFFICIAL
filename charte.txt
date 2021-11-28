@@ -1,0 +1,21 @@
+ - STARBUCKS -
+
+
+Typographie:
+font-family : SoDo Sans, Helvetica Neue
+font-weight : 600-400
+
+Couleurs :
+Racing Green : #1e3932
+Salem Green : #008248
+Humming Bird Green : #d4e9e2
+Mint Cream : #f1f8f6
+Alabaster cream : #f3f1e7
+Black : #000000
+
+
+Icones :
+localisation : <i class="fas fa-map-marker-alt"></i>
+facebook : <i class="fab fa-facebook"></i>
+instagram : <i class="fab fa-instagram"></i>
+twitter : <i class="fab fa-twitter"></i>
