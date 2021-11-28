@@ -216,4 +216,57 @@ p {
   color: #008248;
 }
 
+/*----------------*/
+/*---BLOCK STAR---*/
+/*----------------*/
+.block_star {
+  background-color: #f1f8f6;
+}
+.block_star .block_star_title {
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+.block_star_choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_star_button {
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.block_star_button button {
+  background-color: #f1f8f6;
+  border: none;
+  width: 20%;
+  height: auto;
+}
+.block_star_button button img {
+  width: 10%;
+  height: auto;
+}
+
+.block_star_description {
+  display: flex;
+  align-items: center;
+  background-color: #d4e9e2;
+  width: 70%;
+  height: 300px;
+}
+.block_star_description img {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.block_star_description__image {
+  width: 50%;
+}
+.block_star_description__full {
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

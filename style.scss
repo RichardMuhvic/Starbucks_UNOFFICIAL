@@ -223,3 +223,52 @@ p{
     }    
 }
 
+/*----------------*/ 
+/*---BLOCK STAR---*/ 
+/*----------------*/
+.block_star{
+    background-color: $mint-cream;
+    .block_star_title{
+        text-align: center;
+        padding: 30px 0 30px 0;
+    }
+}
+.block_star_choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block_star_button{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    button{
+        background-color: $mint-cream;
+        border: none;
+        width: 20%;
+        height: auto;
+        img{
+            width: 10%;
+            height: auto;
+        }
+    }
+}
+.block_star_description{
+    display: flex;
+    align-items: center;
+    background-color: $humming-bird-Green;
+    width: 70%;
+    height: 300px;
+    img{
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    &__image{
+        width: 50%;
+    }
+    &__full{
+        width: 50%;
+    }
+}
