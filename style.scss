@@ -24,8 +24,9 @@ body{
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial',    sans-serif;
     margin: 0;
     font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+}
+p{
+    font-size: 0.9em;
 }
 
 
@@ -177,3 +178,48 @@ body{
 /*-----------------*/
 /*---EXPLICATION---*/
 /*-----------------*/
+.main_block_explication{
+    display: flex;
+    flex-direction: column;
+    text-transform: none;
+    margin: 100px 20px 100px 20px;
+}
+.block_explication_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        margin-bottom: 5px;
+        letter-spacing: 0px;
+    }
+}
+.block_explication{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    .block_explication_step{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        margin: 20px;
+        padding: 0 25px 0 25px;
+        img{
+            width: 15%;
+        }
+        h3{
+            margin: 30px 0 30px 0;
+        }
+        p{
+            margin: 0;
+        }
+        a{
+            color: $salem-green;
+        }
+    }    
+}
+
