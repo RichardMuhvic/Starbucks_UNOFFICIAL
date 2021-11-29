@@ -315,6 +315,10 @@ h3{
         .card_explication_3{
             display: flex;
             width: 40%;
+            .card_image{
+                width: 100px;
+                height: auto;
+            }
             &__description{
                 display: flex;
                 flex-direction: column;

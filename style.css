@@ -305,6 +305,10 @@ h3 {
   display: flex;
   width: 40%;
 }
+.main_block_explication_3 .block_explication_3 .card_explication_3 .card_image {
+  width: 100px;
+  height: auto;
+}
 .main_block_explication_3 .block_explication_3 .card_explication_3__description {
   display: flex;
   flex-direction: column;
