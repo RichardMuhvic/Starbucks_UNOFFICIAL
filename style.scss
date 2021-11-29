@@ -294,11 +294,16 @@ h3{
     background-color: $alabaster-cream;
     display: flex;
     flex-direction: column;
+    padding: 50px 50px 50px 50px;
+    width: 100%;
+    h2{
+        margin: 0;
+    }
     .block_explication_3_title{
         display: flex;
         align-items: center;
-        justify-self: center;
         flex-direction: column;
+        width: 60%;
     
     }
     .block_explication_3{
@@ -314,14 +319,19 @@ h3{
         }
         .card_explication_3{
             display: flex;
-            width: 40%;
+            width: 35%;
+            height: auto;
             .card_image{
-                width: 100px;
-                height: auto;
+                width: auto;
+                height: 50%;
+                margin-right: 10px;
             }
             &__description{
                 display: flex;
                 flex-direction: column;
+            }
+            &__description h3{
+                margin: 0;
             }
         }
     }
