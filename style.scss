@@ -59,7 +59,8 @@ h3{
     justify-content: center;
     img{
         object-fit: cover;
-        width: 60%;
+        width: 100px;
+        margin: 10px;
         height: auto;
     }
 }
@@ -293,40 +294,9 @@ h3{
     background-color: $alabaster-cream;
     display: flex;
     flex-direction: column;
-}
-.block_explication_title_3_title{
-    display: flex;
-    align-items: center;
-
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: 20% 40% 40%;
-    .grid{
-        border: solid black;
-        min-height: 200px;
-    }
-}
-
-.block_explication_3{
-    .card_left_explication_3{
-        img{
-            width: 10px;
-            height: auto;
-        }  
-    }
-    .card_explication_3{
+    .block_explication_3_title{
         display: flex;
-        .card_image{
-            width: 50px;
-        }
-    }
-    .card_description_3{
-        display: flex;
-        flex-direction: column;
-        h3{
-            margin-top: 0;
-            margin-bottom: 0;
-        }
+        align-items: center;
+    
     }
 }
