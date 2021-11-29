@@ -296,6 +296,7 @@ h3{
         }
         &:focus{
             border-bottom: 8px solid $salem-green;
+            transition: 0.3s;
         }
     }
 }

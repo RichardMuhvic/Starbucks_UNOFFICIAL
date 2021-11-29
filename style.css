@@ -293,6 +293,7 @@ h3 {
 }
 .block_star_button button:focus {
   border-bottom: 8px solid #008248;
+  transition: 0.3s;
 }
 
 .tabcontent {
