@@ -167,8 +167,11 @@ h3 {
 
 .stickyBanner {
   position: fixed;
-  top: 0;
+  top: 40;
   width: 100%;
+}
+.stickyBanner .content {
+  padding-top: 102px;
 }
 
 .banner-image {
