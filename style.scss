@@ -170,6 +170,12 @@ h3{
         }
     }
 }
+.stickyBanner{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 .banner-image{
     z-index: 1;
     position: relative;
