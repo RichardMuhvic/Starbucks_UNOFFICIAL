@@ -283,6 +283,10 @@ h3{
     justify-content: center;
     button{
         background-color: $mint-cream;
+        float: left;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
         border: none;
         width: 20%;
         height: auto;
@@ -299,10 +303,15 @@ h3{
 .sticky + .content {
     padding-top: 102px;
 }
-
+.tabcontent{
+    display: flex;
+    background-color: $humming-bird-Green;
+    width: 100%;
+}
 .block_star_description{
     display: flex;
     align-items: center;
+    flex-direction: row;
     background-color: $humming-bird-Green;
     width: 100%;
     height: 300px;
@@ -311,7 +320,7 @@ h3{
         width: 70%;
         img{
             justify-content: center;
-            width: 100%;
+            width: 50%;
             height: auto;
         }
         &__image{
