@@ -311,11 +311,11 @@ h3{
 }
 
 .block_star_description{
-     display: flex;
+    display: flex;
+    margin: auto;
     background-color: $humming-bird-Green;
     width: 70%;
     height: 350px;
-    margin: 0;
     &__image{
         margin: 0;
         display: flex;

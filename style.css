@@ -307,10 +307,10 @@ h3 {
 
 .block_star_description {
   display: flex;
+  margin: auto;
   background-color: #d4e9e2;
   width: 70%;
   height: 350px;
-  margin: 0;
 }
 .block_star_description__image {
   margin: 0;
