@@ -287,5 +287,19 @@ h3 {
   display: flex;
   align-items: center;
 }
+.main_block_explication_3 .block_explication_3 {
+  display: flex;
+}
+.main_block_explication_3 .block_explication_3 .card_left_explication_3 {
+  display: flex;
+  flex-direction: column;
+}
+.main_block_explication_3 .block_explication_3 .card_explication_3 {
+  display: flex;
+}
+.main_block_explication_3 .block_explication_3 .card_explication_3__description {
+  display: flex;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=style.css.map */
