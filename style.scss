@@ -286,19 +286,15 @@ h3{
         float: left;
         outline: none;
         cursor: pointer;
-        padding: 2.5em 0 2.5em 0;
+        padding: 1em 0 1em 0;
         border: none;
         width: 20%;
         height: auto;
-        transition: 0.5s;
         img{
             width: 10%;
             height: auto;
         }
-        button:hover{
-            border-bottom: 8px solid $salem-green;
-        }
-        button:active{
+        &:focus{
             border-bottom: 8px solid $salem-green;
         }
     }
@@ -313,9 +309,10 @@ h3{
 .block_star_description{
     display: flex;
     margin: auto;
+    align-items: center;
     background-color: $humming-bird-Green;
     width: 70%;
-    height: 350px;
+    height: 300px;
     &__image{
         margin: 0;
         display: flex;
