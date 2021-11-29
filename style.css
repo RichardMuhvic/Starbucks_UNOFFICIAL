@@ -32,7 +32,7 @@ h3 {
 /*---HEADER---*/
 /*------------*/
 .header {
-  z-index: 10;
+  z-index: 15;
   display: flex;
   justify-content: space-between;
   background-color: white;
