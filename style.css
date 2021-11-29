@@ -149,7 +149,6 @@ h3 {
 }
 .banner .banner_up {
   display: flex;
-  top: 0%;
   z-index: 10;
   background-color: #1e3932;
   width: 100%;
@@ -167,11 +166,8 @@ h3 {
 
 .stickyBanner {
   position: fixed;
-  top: 40;
+  top: 100px;
   width: 100%;
-}
-.stickyBanner .content {
-  padding-top: 102px;
 }
 
 .banner-image {
