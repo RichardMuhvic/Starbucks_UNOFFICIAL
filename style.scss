@@ -296,9 +296,15 @@ h3{
     flex-direction: column;
     width: 100%;
     padding-left:20px;
-    padding-right:20px
+    padding-right:20px;
     h2{
         margin: 0;
+    }
+    hr{
+        display: block;
+        height: 1px;
+        width: 100%;
+        color: black;
     }
     .block_explication_3_title{
         display: flex;
@@ -310,6 +316,7 @@ h3{
     }
     .block_explication_3{
         display: flex;
+        justify-content: flex-start;
         .card_left_explication_3{
             display: flex;
             flex-direction: column;
@@ -323,9 +330,10 @@ h3{
             display: flex;
             width: 30%;
             max-height: 350px;
+            min-height: auto;
             .card_image{
                 width: auto;
-                height: 50%;
+                height: 60%;
                 margin-right: 10px;
             }
             &__description{
