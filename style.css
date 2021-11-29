@@ -269,6 +269,7 @@ h3 {
 }
 
 .block_star_button {
+  overflow: hidden;
   max-width: 60%;
   display: flex;
   justify-content: center;
@@ -278,10 +279,18 @@ h3 {
   border: none;
   width: 20%;
   height: auto;
+  transition: 0.3s;
 }
 .block_star_button button img {
   width: 10%;
   height: auto;
+}
+.block_star_button button button:active {
+  border-bottom: 8px solid #008248;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
 
 .block_star_description {
