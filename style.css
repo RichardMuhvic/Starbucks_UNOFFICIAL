@@ -11,8 +11,8 @@ Black : #000000
 /*--mixins--*/
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  margin: 0;
   font-weight: 600;
+  margin: 0;
 }
 
 p {
@@ -72,7 +72,7 @@ h3 {
   color: #000000;
   margin: 0 20px 0 20px;
   padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-bottom: 2em;
 }
 .menu ul a:hover {
   border-bottom: 8px solid #008248;

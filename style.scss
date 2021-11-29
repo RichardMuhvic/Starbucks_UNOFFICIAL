@@ -22,8 +22,9 @@ $black : #000000;
 
 body{
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial',    sans-serif;
-    margin: 0;
     font-weight: 600;
+    margin: 0;
+
 }
 p{
     font-size: 1em;
@@ -84,7 +85,7 @@ h3{
             color: $black;
             margin: 0 20px 0 20px;
             padding-top: 2.5em;
-            padding-bottom: 2.5em;
+            padding-bottom: 2em;
 
         }
         a:hover{
