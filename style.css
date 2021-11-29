@@ -198,6 +198,10 @@ h3 {
   border-radius: 25px;
   padding: 10px 15px 10px 15px;
   cursor: pointer;
+  border: none;
+}
+.banner-image .banner-text button:hover {
+  background: #019251;
 }
 
 /*-----------------*/
@@ -215,17 +219,22 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 .block_explication_title h2 {
   margin-bottom: 5px;
   letter-spacing: 0px;
+  font-weight: bold;
 }
 
 .block_explication {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 10px 0 10px 0;
+  width: 90%;
+  margin: auto;
 }
 .block_explication .block_explication_step {
   display: flex;
@@ -241,10 +250,10 @@ h3 {
   width: 15%;
 }
 .block_explication .block_explication_step h3 {
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0 0;
 }
 .block_explication .block_explication_step p {
-  margin: 0;
+  margin: 20px;
 }
 .block_explication .block_explication_step a {
   color: #008248;
@@ -332,7 +341,7 @@ h3 {
   background-color: #f3f1e7;
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-content: center;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -382,16 +391,16 @@ h3 {
   max-height: 350px;
   min-height: auto;
 }
-.block_explication_3 .card_image {
+.block_explication_3 .card_explication_3 .card_image {
   width: auto;
   height: 60%;
   margin-right: 10px;
 }
-.block_explication_3__description {
+.block_explication_3 .card_explication_3__description {
   display: flex;
   flex-direction: column;
 }
-.block_explication_3__description h3 {
+.block_explication_3 .card_explication_3__description h3 {
   margin: 0;
 }
 
