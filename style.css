@@ -255,6 +255,9 @@ h3 {
 /*----------------*/
 .block_star {
   background-color: #f1f8f6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .block_star .block_star_title {
   text-align: center;
@@ -279,11 +282,11 @@ h3 {
   float: left;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 2.5em 0 2.5em 0;
   border: none;
   width: 20%;
   height: auto;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .block_star_button button img {
   width: 10%;
@@ -304,17 +307,24 @@ h3 {
 
 .block_star_description {
   display: flex;
-  align-items: center;
-  flex-direction: row;
   background-color: #d4e9e2;
-  width: 100%;
-  height: 300px;
+  width: 70%;
+  height: 350px;
+  margin: 0;
 }
 .block_star_description__image {
-  width: 20%;
+  margin: 0;
+  display: flex;
+  justify-content: center !important;
+}
+.block_star_description__image img {
+  object-fit: contain;
+  width: 50%;
+  margin: 0;
 }
 .block_star_description__full {
-  width: 80%;
+  width: 50%;
+  margin: 0;
 }
 
 /*-------------------------*/
@@ -349,13 +359,14 @@ h3 {
 .main_block_explication_3 .block_explication_3_title {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
   margin: 50px 0 50px 0;
-  text-align: center;
 }
 .main_block_explication_3 .block_explication_3 {
   display: flex;
   justify-content: flex-start;
+  align-content: center;
 }
 .main_block_explication_3 .block_explication_3 .card_left_explication_3 {
   display: flex;
