@@ -124,6 +124,12 @@ h3 {
   background-color: rgba(32, 32, 32, 0.87);
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /*------------*/
 /*---BANNER---*/
 /*------------*/
