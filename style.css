@@ -288,18 +288,22 @@ h3 {
   display: flex;
   align-items: center;
   background-color: #d4e9e2;
-  width: 70%;
+  width: 100%;
   height: 300px;
 }
-.block_star_description img {
+.block_star_description .tabcontent {
+  display: flex;
+  width: 70%;
+}
+.block_star_description .tabcontent img {
   justify-content: center;
   width: 100%;
   height: auto;
 }
-.block_star_description__image {
+.block_star_description .tabcontent__image {
   width: 50%;
 }
-.block_star_description__full {
+.block_star_description .tabcontent__full {
   width: 50%;
 }
 
