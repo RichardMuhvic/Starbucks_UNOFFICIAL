@@ -41,6 +41,9 @@ h3 {
   height: 100px;
   font-weight: bold;
 }
+.header label {
+  display: none;
+}
 
 .logo {
   display: flex;
@@ -59,9 +62,6 @@ h3 {
   justify-content: space-between;
   align-items: center;
   width: 90%;
-}
-.menu_subscribe label {
-  display: none;
 }
 
 .menu {
@@ -143,8 +143,8 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .menu {
-    overflow: hidden;
+  .menu_subscribe .menu {
+    display: none;
   }
 }
 /*------------*/
