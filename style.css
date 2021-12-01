@@ -139,6 +139,11 @@ h3 {
   padding-top: 102px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu {
+    overflow: hidden;
+  }
+}
 /*------------*/
 /*---BANNER---*/
 /*------------*/
@@ -308,6 +313,7 @@ h3 {
 
 .tablinks:focus {
   border-bottom: 8px solid #008248;
+  transition: 0.3s;
 }
 
 .tabcontent {
