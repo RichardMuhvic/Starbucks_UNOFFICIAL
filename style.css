@@ -42,6 +42,7 @@ h3 {
 }
 .header label {
   display: none;
+  cursor: pointer;
 }
 
 .logo {
