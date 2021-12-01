@@ -405,7 +405,7 @@ h3{
 .block_explication_3{   
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: auto;
     height: 250px;
     padding-left: 30px;
@@ -439,6 +439,20 @@ h3{
     }
 }
 
+
+@media (max-width: 1020px) {
+    .block_explication_3{
+        display: flex;
+        flex-wrap: wrap;
+        .card_left_explication_3{
+            width: 100%;
+        }
+        .card_explication_3{
+            width: 50%;
+            height: auto;
+        }
+    }
+}
 
 /*----------------*/ 
 /*-----FOOTER-----*/
