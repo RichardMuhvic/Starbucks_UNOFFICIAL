@@ -467,6 +467,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 4em;
   margin: auto;
   width: 60%;
 }
