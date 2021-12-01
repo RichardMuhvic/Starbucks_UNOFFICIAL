@@ -231,13 +231,13 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 1030px) {
-  .banner_up {
-    padding-left: 50px;
+  .banner_up p {
+    padding-left: 20px !important;
   }
 
   .banner-text {
     width: 50%;
-    top: 50%;
+    top: 40%;
     left: 50%;
     text-align: center;
   }
@@ -246,6 +246,10 @@ h3 {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .banner_up p {
+    padding-left: 65px !important;
+  }
+
   .banner-text {
     display: flex;
     flex-direction: column;
@@ -255,6 +259,12 @@ h3 {
   }
   .banner-text p, .banner-text h1 {
     text-align: center;
+  }
+  .banner-text h1 {
+    font-size: 1.4em !important;
+  }
+  .banner-text p {
+    font-size: 1em !important;
   }
   .banner-text button {
     width: 100px;
