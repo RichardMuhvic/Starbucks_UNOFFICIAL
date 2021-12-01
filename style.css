@@ -475,6 +475,12 @@ h3 {
   margin-bottom: 5em;
 }
 
+#block_explication_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4em;
+}
 #block_explication_3 .block_explication_3 {
   display: flex;
   justify-content: flex-start;
