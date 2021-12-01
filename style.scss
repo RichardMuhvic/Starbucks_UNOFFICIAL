@@ -453,6 +453,14 @@ h3{
     .block_star_button{
         width: 100%;
     }
+    .block_star_description{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        &__full{
+            text-align: center;
+        }
+    }
 }
 
 
@@ -563,8 +571,16 @@ h3{
         }
     }
 }
-@media (max-width: 767px) {
-
+@media (min-width: 320px) and (max-width: 767px) {
+    .block_explication_3{
+        flex-direction: column;
+    }
+    .card_left_explication_3{
+        width: 90%!important;
+    }
+    .card_explication_3{
+        width: 90%!important;
+    }
 }
 
 /*----------------*/ 
