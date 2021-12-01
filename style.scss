@@ -461,11 +461,9 @@ h3{
         margin: 0;
     }
     hr{
-        display: block;
-        height: 1px;
+        size: 1px;
         width: 100%;
-        color: black;
-        padding-bottom: 2em;
+        margin-bottom: 2em;
     }
     a{
         color: $salem-green;

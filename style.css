@@ -453,11 +453,9 @@ h3 {
   margin: 0;
 }
 .main_block_explication_3 hr {
-  display: block;
-  height: 1px;
+  size: 1px;
   width: 100%;
-  color: black;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 .main_block_explication_3 a {
   color: #008248;
