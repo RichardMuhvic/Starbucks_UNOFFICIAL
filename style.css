@@ -254,15 +254,20 @@ h3 {
 .block_explication .block_explication_step {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  text-align: center;
   width: 30%;
   margin: 20px;
   padding: 0 25px 0 25px;
 }
 .block_explication .block_explication_step img {
   width: 15%;
+}
+.block_explication .block_explication_step__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .block_explication .block_explication_step__text-block h3 {
   margin: 30px 0 0 0;
@@ -274,13 +279,30 @@ h3 {
   color: #008248;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 768px) {
   .block_explication {
     display: flex;
     flex-direction: column;
+    margin: 30px;
   }
   .block_explication .block_explication_step {
     flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+  }
+  .block_explication .block_explication_step__text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 20px;
+  }
+  .block_explication .block_explication_step__text-block h3 {
+    margin: 0;
+  }
+  .block_explication .block_explication_step__text-block p {
+    margin: 20px 0 20px 0;
     width: 100%;
   }
 }
