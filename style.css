@@ -293,15 +293,20 @@ h3 {
   cursor: pointer;
   padding: 1em 0 1em 0;
   border: none;
-  width: 20%;
+  width: 15%;
   height: auto;
+  border-bottom: 8px solid #f1f8f6;
 }
 .block_star_button button img {
-  width: 10%;
+  width: 8%;
   height: auto;
 }
+.block_star_button button h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
 
-.tablbkins:focus {
+.tablinks:focus {
   border-bottom: 8px solid #008248;
 }
 
@@ -316,7 +321,7 @@ h3 {
   margin: auto;
   align-items: center;
   background-color: #d4e9e2;
-  width: 70%;
+  width: 60%;
   height: 300px;
 }
 .block_star_description__image {
@@ -326,7 +331,7 @@ h3 {
 }
 .block_star_description__image img {
   object-fit: contain;
-  width: 50%;
+  width: 70%;
   margin: 0;
 }
 .block_star_description__full {
