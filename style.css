@@ -300,9 +300,9 @@ h3 {
   width: 10%;
   height: auto;
 }
-.block_star_button button:focus {
+
+.tablbkins:focus {
   border-bottom: 8px solid #008248;
-  transition: 0.3s;
 }
 
 .tabcontent {
@@ -375,6 +375,8 @@ h3 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: auto;
+  height: 250px;
 }
 .block_explication_3 .card_left_explication_3 {
   display: flex;
@@ -388,6 +390,7 @@ h3 {
 .block_explication_3 .card_explication_3 {
   display: flex;
   width: 30%;
+  align-items: flex-start;
   max-height: 350px;
   min-height: auto;
 }
