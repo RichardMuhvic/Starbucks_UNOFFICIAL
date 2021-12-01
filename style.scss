@@ -57,6 +57,7 @@ h3{
     display: flex;
     width: 10%;
     justify-content: center;
+    margin-left: 50px;
     img{
         object-fit: cover;
         width: 100px;
@@ -144,17 +145,18 @@ h3{
     padding-top: 102px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
     .menu_subscribe{
         display: none;
     }
     .header {
         label{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        font-weight: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: normal;
+            margin-right: 50px;
         }
     }
 }

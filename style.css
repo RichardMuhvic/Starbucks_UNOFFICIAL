@@ -48,6 +48,7 @@ h3 {
   display: flex;
   width: 10%;
   justify-content: center;
+  margin-left: 50px;
 }
 .logo img {
   object-fit: cover;
@@ -141,7 +142,7 @@ h3 {
   padding-top: 102px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .menu_subscribe {
     display: none;
   }
@@ -152,6 +153,7 @@ h3 {
     align-items: center;
     font-size: 40px;
     font-weight: normal;
+    margin-right: 50px;
   }
 }
 /*------------*/
