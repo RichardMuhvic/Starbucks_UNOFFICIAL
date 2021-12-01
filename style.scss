@@ -197,7 +197,7 @@ h3{
     z-index: 1;
     position: relative;
     img{
-        max-width: 100%;
+        width: 100%;
         height: auto;
         display: block;
     }
@@ -374,8 +374,6 @@ h3{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding-left:20px;
-    padding-right:20px;
     h2{
         font-size: 2em;
         font-weight: bold;
