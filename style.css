@@ -483,6 +483,9 @@ h3 {
   margin: auto;
   width: 60%;
 }
+.main_block_explication_3 .block_explication_3_title h2 {
+  text-align: center;
+}
 .main_block_explication_3 .block_explication_3_title p {
   text-align: center;
   margin-bottom: 5em;
