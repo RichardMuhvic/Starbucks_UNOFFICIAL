@@ -193,18 +193,18 @@ h3 {
 }
 .banner-image img {
   width: 100%;
-  height: auto;
+  height: 800px;
+  object-fit: cover;
   display: block;
 }
 .banner-image .banner-text {
   z-index: 5;
   position: absolute;
-  top: 25%;
-  bottom: 25%;
-  left: 5%;
+  top: 40%;
+  left: 50%;
   width: 40%;
   color: white;
-  text-transform: none;
+  transform: translate(-50%, -50%);
 }
 .banner-image .banner-text p a {
   color: white;
@@ -222,13 +222,15 @@ h3 {
   background: #019251;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1030px) {
   .banner_up {
     padding-left: 50px;
   }
 
   .banner-text {
     width: 50%;
+    top: 50%;
+    left: 50%;
   }
 }
 /*-----------------*/
@@ -455,7 +457,7 @@ h3 {
 .main_block_explication_3 hr {
   size: 1px;
   width: 100%;
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 .main_block_explication_3 a {
   color: #008248;
