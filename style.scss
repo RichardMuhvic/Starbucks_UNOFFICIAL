@@ -269,14 +269,16 @@ h3{
         img{
             width: 15%;
         }
-        h3{
-            margin: 30px 0 0 0;
-        }
-        p{
-            margin: 20px;
-        }
-        a{
-            color: $salem-green;
+        &__text-block{
+            h3{
+                margin: 30px 0 0 0;
+            }
+            p{
+                margin: 20px;
+            }
+            a{
+                color: $salem-green;
+            }
         }
     }    
 }
@@ -289,7 +291,7 @@ h3{
             flex-direction: row;
             width: 100%;
             img{
-                
+
             }
         }
     }

@@ -264,13 +264,13 @@ h3 {
 .block_explication .block_explication_step img {
   width: 15%;
 }
-.block_explication .block_explication_step h3 {
+.block_explication .block_explication_step__text-block h3 {
   margin: 30px 0 0 0;
 }
-.block_explication .block_explication_step p {
+.block_explication .block_explication_step__text-block p {
   margin: 20px;
 }
-.block_explication .block_explication_step a {
+.block_explication .block_explication_step__text-block a {
   color: #008248;
 }
 
