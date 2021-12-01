@@ -390,7 +390,7 @@ h3{
 }
 .block_star_button{
     overflow: hidden;
-    max-width: 60%;
+    width: 60%;
     display: flex;
     justify-content: center;
     button{
@@ -405,7 +405,7 @@ h3{
         border-bottom: 8px solid $mint-cream;
 
         img{
-            width: 8%;
+            width: 13px;
             height: auto;
         }
         h3{
@@ -449,6 +449,11 @@ h3{
     }
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+    .block_star_button{
+        width: 100%;
+    }
+}
 
 
 
