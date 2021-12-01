@@ -442,19 +442,44 @@ h3{
 /*-----FOOTER-----*/
 /*----------------*/ 
 footer{
+    margin: 30px 0 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     .social_network{
         display: flex;
         color: black;
+        padding: 0;
         li{
             list-style: none;
+            margin-left: 15px;
+            margin-right: 15px;
             a{
                 color: black;
-                margin: 15px;
                 font-size: 2.5em;
+                cursor: pointer;
             }
         }
+    }
+    .terms{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        li{
+            list-style: none;
+            font-size: 1.2em;
+            margin-left: 15px;
+            margin-right: 15px;
+            a{
+                color: black;
+            }
+        }
+    }
+    p{
+        display: flex;
+        justify-content: flex-start;
+        color: $racing-green;
+        font-weight: 400;
+        margin: 15px;
     }
 }

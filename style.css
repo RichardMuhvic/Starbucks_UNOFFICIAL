@@ -431,6 +431,7 @@ h3 {
 /*-----FOOTER-----*/
 /*----------------*/
 footer {
+  margin: 30px 0 30px 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -438,14 +439,38 @@ footer {
 footer .social_network {
   display: flex;
   color: black;
+  padding: 0;
 }
 footer .social_network li {
   list-style: none;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 footer .social_network li a {
   color: black;
-  margin: 15px;
   font-size: 2.5em;
+  cursor: pointer;
+}
+footer .terms {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+footer .terms li {
+  list-style: none;
+  font-size: 1.2em;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+footer .terms li a {
+  color: black;
+}
+footer p {
+  display: flex;
+  justify-content: flex-start;
+  color: #1e3932;
+  font-weight: 400;
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
