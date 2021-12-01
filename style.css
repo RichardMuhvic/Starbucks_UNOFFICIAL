@@ -202,7 +202,7 @@ h3 {
   top: 25%;
   bottom: 25%;
   left: 5%;
-  width: 50%;
+  width: 40%;
   color: white;
   text-transform: none;
 }
@@ -222,6 +222,11 @@ h3 {
   background: #019251;
 }
 
+@media (max-width: 991px) {
+  .banner-text {
+    width: 50%;
+  }
+}
 /*-----------------*/
 /*---EXPLICATION---*/
 /*-----------------*/
