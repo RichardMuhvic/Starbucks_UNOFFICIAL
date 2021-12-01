@@ -442,8 +442,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 4em;
-  padding-bottom: 4em;
   width: 100%;
 }
 .main_block_explication_3 h2 {
@@ -477,45 +475,45 @@ h3 {
   margin-bottom: 5em;
 }
 
-.block_explication_3 {
+#block_explication_3 .block_explication_3 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   height: auto;
 }
-.block_explication_3 .card_left_explication_3 {
+#block_explication_3 .block_explication_3 .card_left_explication_3 {
   display: flex;
   flex-direction: column;
   width: 20%;
   padding-bottom: 2em;
 }
-.block_explication_3 .card_left_explication_3 img {
+#block_explication_3 .block_explication_3 .card_left_explication_3 img {
   width: 15px;
   height: auto;
 }
-.block_explication_3 .card_left_explication_3 p {
+#block_explication_3 .block_explication_3 .card_left_explication_3 p {
   margin: 0;
 }
-.block_explication_3 .card_explication_3 {
+#block_explication_3 .block_explication_3 .card_explication_3 {
   display: flex;
   width: 40%;
   align-items: flex-start;
   max-height: 350px;
   min-height: auto;
 }
-.block_explication_3 .card_explication_3 .card_image {
+#block_explication_3 .block_explication_3 .card_explication_3 .card_image {
   max-width: 100px;
   height: 100%;
   margin-right: 10px;
 }
-.block_explication_3 .card_explication_3__description {
+#block_explication_3 .block_explication_3 .card_explication_3__description {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
 }
-.block_explication_3 .card_explication_3__description h3 {
+#block_explication_3 .block_explication_3 .card_explication_3__description h3 {
   font-size: 1.2em;
   margin: 0;
 }

@@ -451,8 +451,6 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
     width: 100%;
     h2{
         font-size: 2em;
@@ -485,49 +483,51 @@ h3{
         }
     }
 }
-
-.block_explication_3{   
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: auto;
-    .card_left_explication_3{
+#block_explication_3{
+    .block_explication_3{   
         display: flex;
-        flex-direction: column;
-        width: 20%;
-        padding-bottom: 2em;
-        img{
-            width: 15px;
-            height: auto;
-        }
-        p{
-            margin: 0;
-        }
-    }
-    .card_explication_3{
-        display: flex;
-        width: 40%;
+        justify-content: flex-start;
         align-items: flex-start;
-        max-height: 350px;
-        min-height: auto;
-        .card_image{
-            max-width: 100px;
-            height: 100%;
-            margin-right: 10px;
-        }
-        &__description{
+        width: 100%;
+        height: auto;
+        .card_left_explication_3{
             display: flex;
             flex-direction: column;
-            width: 100%;
-            height: auto;
+            width: 20%;
+            padding-bottom: 2em;
+            img{
+                width: 15px;
+                height: auto;
+            }
+            p{
+                margin: 0;
+            }
         }
-        &__description h3{
-            font-size: 1.2em;
-            margin: 0;
+        .card_explication_3{
+            display: flex;
+            width: 40%;
+            align-items: flex-start;
+            max-height: 350px;
+            min-height: auto;
+            .card_image{
+                max-width: 100px;
+                height: 100%;
+                margin-right: 10px;
+            }
+            &__description{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+            }
+            &__description h3{
+                font-size: 1.2em;
+                margin: 0;
+            }
         }
     }
 }
+
 
 
 @media (min-width: 768px) and (max-width: 1020px) {
