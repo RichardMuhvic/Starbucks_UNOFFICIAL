@@ -9,6 +9,9 @@ Black : #000000
 */
 /*--variables--*/
 /*--mixins--*/
+/*------------*/
+/*----BODY----*/
+/*------------*/
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 600;
@@ -489,32 +492,32 @@ h3 {
   }
 }
 /*-------------------------*/
-/*---BLOCK EXPLICATION 3---*/
+/*------CASH OR CARD-------*/
 /*-------------------------*/
-.main_block_explication_3 {
+.cashorcard_main_block {
   background-color: #f3f1e7;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
 }
-.main_block_explication_3 h2 {
+.cashorcard_main_block h2 {
   font-size: 2em;
   font-weight: bold;
   margin: 0;
 }
-.main_block_explication_3 h3 {
+.cashorcard_main_block h3 {
   margin: 0;
 }
-.main_block_explication_3 hr {
+.cashorcard_main_block hr {
   size: 1px;
   width: 100%;
   margin-bottom: 2.5em;
 }
-.main_block_explication_3 a {
+.cashorcard_main_block a {
   color: #008248;
 }
-.main_block_explication_3 .block_explication_3_title {
+.cashorcard_main_block .cashorcard_block_title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -523,94 +526,94 @@ h3 {
   margin: auto;
   width: 60%;
 }
-.main_block_explication_3 .block_explication_3_title h2 {
+.cashorcard_main_block .cashorcard_block_title h2 {
   text-align: center;
 }
-.main_block_explication_3 .block_explication_3_title p {
+.cashorcard_main_block .cashorcard_block_title p {
   text-align: center;
   margin-bottom: 5em;
 }
 
-#block_explication_3 {
+#cashorcard_block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 4em;
 }
-#block_explication_3 .block_explication_3 {
+#cashorcard_block .cashorcard_block {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   height: auto;
 }
-#block_explication_3 .block_explication_3 .card_left_explication_3 {
+#cashorcard_block .cashorcard_block .cashorcard_card_left {
   display: flex;
   flex-direction: column;
   width: 20%;
   padding-bottom: 2em;
 }
-#block_explication_3 .block_explication_3 .card_left_explication_3 img {
+#cashorcard_block .cashorcard_block .cashorcard_card_left img {
   width: 15px;
   height: auto;
 }
-#block_explication_3 .block_explication_3 .card_left_explication_3 p {
+#cashorcard_block .cashorcard_block .cashorcard_card_left p {
   margin: 0;
 }
-#block_explication_3 .block_explication_3 .card_explication_3 {
+#cashorcard_block .cashorcard_block .cashorcard_card {
   display: flex;
   width: 40%;
   align-items: flex-start;
   max-height: 350px;
   min-height: auto;
 }
-#block_explication_3 .block_explication_3 .card_explication_3 .card_image {
+#cashorcard_block .cashorcard_block .cashorcard_card .card_image {
   max-width: 100px;
   height: 100%;
   margin-right: 10px;
 }
-#block_explication_3 .block_explication_3 .card_explication_3__description {
+#cashorcard_block .cashorcard_block .cashorcard_card__description {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
 }
-#block_explication_3 .block_explication_3 .card_explication_3__description h3 {
+#cashorcard_block .cashorcard_block .cashorcard_card__description h3 {
   font-size: 1.2em;
   margin: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
-  #block_explication_3 {
+  #cashorcard_block {
     padding: 2em 1em 2em 1em;
   }
 
-  .block_explication_3 {
+  .cashorcard_block {
     display: flex;
     flex-wrap: wrap;
   }
-  .block_explication_3 .card_left_explication_3 {
+  .cashorcard_block .cashorcard_card_left {
     width: 100%;
   }
-  .block_explication_3 .card_explication_3 {
+  .cashorcard_block .cashorcard_card {
     width: 40%;
     height: auto;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  #block_explication_3 {
+  #cashorcard_block {
     padding: 2em 1em 2em 1em;
   }
 
-  .block_explication_3 {
+  .cashorcard_block {
     flex-direction: column;
   }
 
-  .card_left_explication_3 {
+  .cashorcard_card_left {
     width: 90% !important;
   }
 
-  .card_explication_3 {
+  .cashorcard_card {
     width: 90% !important;
   }
 }

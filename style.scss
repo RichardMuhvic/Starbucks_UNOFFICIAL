@@ -20,6 +20,10 @@ $black : #000000;
 /*--mixins--*/
 
 
+
+/*------------*/ 
+/*----BODY----*/ 
+/*------------*/
 body{
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial',    sans-serif;
     font-weight: 600;
@@ -35,6 +39,7 @@ h2{
 h3{
     font-size: 1.5em;
 }
+
 
 
 /*------------*/
@@ -276,6 +281,9 @@ h3{
         }
     }
 }
+
+
+
 /*-----------------*/
 /*---EXPLICATION---*/
 /*-----------------*/
@@ -399,6 +407,8 @@ h3{
 
 }
 
+
+
 /*----------------*/ 
 /*---BLOCK STAR---*/ 
 /*----------------*/
@@ -496,9 +506,9 @@ h3{
 
 
 /*-------------------------*/ 
-/*---BLOCK EXPLICATION 3---*/ 
+/*------CASH OR CARD-------*/ 
 /*-------------------------*/
-.main_block_explication_3{
+.cashorcard_main_block{
     background-color: $alabaster-cream;
     display: flex;
     flex-direction: column;
@@ -520,7 +530,7 @@ h3{
     a{
         color: $salem-green;
     }
-    .block_explication_3_title{
+    .cashorcard_block_title{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -537,18 +547,18 @@ h3{
         }
     }
 }
-#block_explication_3{
+#cashorcard_block{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 4em;
-    .block_explication_3{   
+    .cashorcard_block{   
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
         height: auto;
-        .card_left_explication_3{
+        .cashorcard_card_left{
             display: flex;
             flex-direction: column;
             width: 20%;
@@ -561,7 +571,7 @@ h3{
                 margin: 0;
             }
         }
-        .card_explication_3{
+        .cashorcard_card{
             display: flex;
             width: 40%;
             align-items: flex-start;
@@ -589,35 +599,37 @@ h3{
 
 
 @media (min-width: 768px) and (max-width: 1020px) {
-    #block_explication_3{
+    #cashorcard_block{
         padding: 2em 1em 2em 1em;
     }
-    .block_explication_3{
+    .cashorcard_block{
         display: flex;
         flex-wrap: wrap;
-        .card_left_explication_3{
+        .cashorcard_card_left{
             width: 100%;
         }
-        .card_explication_3{
+        .cashorcard_card{
             width: 40%;
             height: auto;
         }
     }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-    #block_explication_3{
+    #cashorcard_block{
         padding: 2em 1em 2em 1em;
     }
-    .block_explication_3{
+    .cashorcard_block{
         flex-direction: column;
     }
-    .card_left_explication_3{
+    .cashorcard_card_left{
         width: 90%!important;
     }
-    .card_explication_3{
+    .cashorcard_card{
         width: 90%!important;
     }
 }
+
+
 
 /*----------------*/ 
 /*-----FOOTER-----*/
