@@ -199,9 +199,10 @@ h3 {
 .banner-image .banner-text {
   z-index: 5;
   position: absolute;
-  top: 40%;
+  top: 25%;
+  bottom: 25%;
   left: 5%;
-  width: 40%;
+  width: 50%;
   color: white;
   text-transform: none;
 }
