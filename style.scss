@@ -437,3 +437,24 @@ h3{
     }
 }
 
+
+/*----------------*/ 
+/*-----FOOTER-----*/
+/*----------------*/ 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .social_network{
+        display: flex;
+        color: black;
+        li{
+            list-style: none;
+            a{
+                color: black;
+                margin: 15px;
+                font-size: 2.5em;
+            }
+        }
+    }
+}

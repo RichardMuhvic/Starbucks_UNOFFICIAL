@@ -427,4 +427,25 @@ h3 {
   margin: 0;
 }
 
+/*----------------*/
+/*-----FOOTER-----*/
+/*----------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer .social_network {
+  display: flex;
+  color: black;
+}
+footer .social_network li {
+  list-style: none;
+}
+footer .social_network li a {
+  color: black;
+  margin: 15px;
+  font-size: 2.5em;
+}
+
 /*# sourceMappingURL=style.css.map */
