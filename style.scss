@@ -281,6 +281,20 @@ h3{
     }    
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .block_explication{
+        display: flex;
+        flex-direction: column;
+        .block_explication_step{
+            flex-direction: row;
+            width: 100%;
+            img{
+                
+            }
+        }
+    }
+
+}
 
 /*----------------*/ 
 /*---BLOCK STAR---*/ 
