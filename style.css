@@ -223,6 +223,10 @@ h3 {
 }
 
 @media (max-width: 991px) {
+  .banner_up {
+    padding-left: 50px;
+  }
+
   .banner-text {
     width: 50%;
   }
@@ -479,8 +483,6 @@ h3 {
   align-items: flex-start;
   width: 100%;
   height: auto;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .block_explication_3 .card_left_explication_3 {
   display: flex;
