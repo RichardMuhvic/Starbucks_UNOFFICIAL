@@ -399,6 +399,7 @@ h3 {
   width: auto;
   height: 250px;
   padding-left: 30px;
+  padding-right: 30px;
 }
 .block_explication_3 .card_left_explication_3 {
   display: flex;
